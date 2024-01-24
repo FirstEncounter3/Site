@@ -1,0 +1,107 @@
+html, body{
+    height:100%;
+    font-family: "Gill Sans", sans-serif;
+ }
+
+body {
+    margin:0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav li a:hover {
+    color: burlywood;
+}
+
+.nav li:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FF4500;
+}
+
+.active:hover {
+    background-color: black;
+}
+
+.main {
+    padding:20px;
+    margin-top:30px;
+    background-color: #FFE4B5;
+    height:100%;
+    color: #2F4F4F;
+}
+
+.main hr {
+    border: 1px solid #FF4500;
+}
+
+.main h1 {
+    font-size: 45px;
+}
+
+.cards {
+    margin: 10px;
+    padding: 8px;
+}
+
+.card_one {
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid #FF4500;
+    border-radius: 10%;
+    width: 20%;
+    background-color: bisque;
+}
+
+.card_one h2 {
+    text-align: center;
+}
+
+.card_one img {
+    float: left;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border: hidden;
+    border-radius: 100%;
+}
+
+.card_one p {
+    margin: 8px;
+}
+
+.small_mem {
+    height: 20px;
+    width: 20px;
+}
+
+footer {
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+    font-size: 20px;
+}
